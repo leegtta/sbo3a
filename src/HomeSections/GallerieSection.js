@@ -1,6 +1,6 @@
 import "./GallerySection.css";
 
-const GallerySection = () => {
+const GallerieSection = () => {
   const images = [
     "gallery1.jpg",
     "gallery2.jpg",
@@ -27,4 +27,4 @@ const GallerySection = () => {
   );
 };
 
-export default GallerySection;
+export default GallerieSection;
