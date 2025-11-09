@@ -1,0 +1,139 @@
+.contact-section {
+  padding: 80px 10%;
+  font-family: 'Poppins', sans-serif;
+  background: #67a9ff;
+}
+
+.contact-title {
+  text-align: center;
+  font-size: 24px;
+  color: #007bff;
+  font-weight: 600;
+  margin-bottom: 50px;
+  position: relative;
+}
+
+.contact-title::after {
+  content: "";
+  width: 60px;
+  height: 3px;
+  background: #007bff;
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.contact-container {
+  display: flex;
+  justify-content: space-between;
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0 5px 20px rgba(0, 123, 255, 0.1);
+  padding: 50px;
+  gap: 40px;
+}
+
+.contact-form {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form h3 {
+  margin-bottom: 20px;
+  font-size: 20px;
+  color: #333;
+}
+
+.contact-form input,
+.contact-form textarea {
+  margin-bottom: 15px;
+  padding: 12px 15px;
+  border: 1.5px solid #cce0ff;
+  border-radius: 8px;
+  outline: none;
+  font-size: 15px;
+  transition: border-color 0.3s;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #007bff;
+}
+
+.contact-form button {
+  background-color: #007bff;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 25px;
+  padding: 12px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: #005fcc;
+}
+
+.contact-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  font-size: 15px;
+}
+
+.info-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  color: #333;
+}
+
+.icon {
+  color: #007bff;
+  font-size: 18px;
+  margin-top: 3px;
+}
+
+.social-icons {
+  display: flex;
+  gap: 12px;
+  font-size: 20px;
+  color: #007bff;
+  margin-top: 10px;
+}
+
+.social-icons svg {
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.social-icons svg:hover {
+  transform: scale(1.2);
+  color: #005fcc;
+}
+
+iframe {
+  display: flex;
+  margin-top: 15px;
+  width: auto;
+  height: 350px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0, 123, 255, 0.15);
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .contact-container {
+    flex-direction: column;
+    padding: 30px;
+  }
+
+  .contact-info {
+    margin-top: 20px;
+  }
+}
