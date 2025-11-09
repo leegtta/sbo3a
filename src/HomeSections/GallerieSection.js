@@ -2,12 +2,9 @@ import "./GallerySection.css";
 
 const GallerieSection = () => {
   const images = [
-    "gallery1.jpg",
-    "gallery2.jpg",
-    "gallery3.jpg",
-    "gallery4.jpg",
-    "gallery5.jpg",
-    "gallery6.jpg",
+    "gallerie1.png",
+    "gallerie2.png",
+    "gallerie3.png",
   ];
 
   return (
