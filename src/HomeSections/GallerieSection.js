@@ -1,10 +1,13 @@
-import "./GallerySection.css";
+import "./GallerieSection.css";
+import gallerie1 from "../assets/gallerie1.png";
 
 const GallerieSection = () => {
   const images = [
-    "gallerie1.png",
-    "gallerie2.png",
-    "gallerie3.png",
+    gallerie1,
+    gallerie1, 
+    gallerie1,
+    gallerie1,
+    gallerie1
   ];
 
   return (
